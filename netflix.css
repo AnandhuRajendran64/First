@@ -519,7 +519,7 @@ button.m1-i,button.m2-i,button.m3-i,button.m4-i,button.m5-i{
     padding: 0px;
 }
 .div-c1-i7 h3,.div-c2-i7 h3,.div-c3-i7 h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
     margin-block-start: 0;
     margin-block-end: 0;
@@ -708,4 +708,26 @@ footer{
     margin-left: -91%;
     margin-top: 1.5rem;
     font-size: inherit;
+}
+.last p{
+    padding-bottom: 80%;
+}
+.im1,.im2,
+.im3,.im4,.im5{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.im1,.im2,.im3,.im4,.im5 img{
+    position: absolute;
+    top: 190px;
+    left: 178px;
+    bottom: 0;
+    right: 0px;
+    border-radius: 0.5rem;
+    background-size: cover;
+    z-index: 2;
+    overflow: hidden;
+    width: -webkit-fill-available;
+    height: 103%;
 }
